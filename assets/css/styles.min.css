@@ -91,8 +91,7 @@
 		max-width: 100px;
 		display: block;
 		margin-left: 800px;
-		margin-top: -150px;
-	
+
 	}
 
 	.wine_cont {
@@ -108,13 +107,13 @@
 }
 
 .camera_cont {
-	margin-left: 1000px;
-	margin-top: -70px;
+	margin-left: 1025px;
+
 }
 
 .wine_cont{
 	margin-left: 900px;
-	margin-top: -150px;
+	
 }
 
 .test_container{
