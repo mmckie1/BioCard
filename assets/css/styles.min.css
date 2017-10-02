@@ -1,0 +1,294 @@
+@media (min-width: 360px) {
+	.lamp_cont{
+		max-width: 100px;
+		display: none;
+	}
+
+	.light {
+		max-width: 130px;
+		display: none;
+	}
+
+	.speaker_cont {
+		max-width: 100px;
+		display: none;
+	}
+
+	.comp_cont {
+		max-width: 300px;
+	}
+
+	.test_image {
+		max-width: 259px;
+	}
+
+	.test_container{
+		max-width: 300px;
+
+	}
+
+	.book_cont {
+		max-width: 100px;
+		float: right;
+	}
+
+	.speakerR_cont{
+		max-width: 100px;
+		display: none;
+	}
+
+	.wine_cont {
+		max-width: 70px;
+		display: none;
+	}
+
+	.camera_cont {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.lamp_cont{
+		max-width: 100px;
+		display: block;
+		margin-bottom: -200px;
+		margin-top: -120px;
+	}
+
+	.light {
+		max-width: 130px;
+		display: block;
+		margin-bottom: -500px;
+		margin-top: 10px;
+	}
+
+	.speaker_cont {
+		max-width: 100px;
+		display: block;
+		margin-bottom: -400px;
+		margin-top: 120px;
+	}
+
+	.comp_cont {
+		max-width: 300px;
+		margin-left: 400px;
+	}
+
+	.test_container{
+		max-width: 300px;
+		margin-left: 400px;
+	}
+
+	.book_cont {
+		max-width: 200px;
+		float: right;
+	}
+
+}
+
+@media (min-width: 980px){
+	.speakerR_cont{
+		max-width: 100px;
+		display: block;
+		margin-left: 800px;
+		margin-top: -150px;
+	
+	}
+
+	.wine_cont {
+		max-width: 100px;
+		display: block;
+	}
+
+	.camera_cont {
+		max-width: 150px;
+		display: block;
+	}
+
+}
+
+.camera_cont {
+	margin-left: 1000px;
+	margin-top: -70px;
+}
+
+.wine_cont{
+	margin-left: 900px;
+	margin-top: -150px;
+}
+
+.test_container{
+	position:fixed;
+}
+
+.test_overlay,.test_text{
+	position:absolute;
+	overflow:hidden
+}
+
+.test_image{
+	display:block;
+	width: 100%;
+	margin-top: -40px;
+	margin-left: 15px;
+	
+}
+
+.test_overlay{
+	background-image:url(../../assets/img/website.png);
+	background-size:cover;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:0;
+	transition:.5s ease;
+}
+
+.test_container:hover .test_overlay{
+	height: 143%;
+	
+}
+.test_text{
+	white-space:nowrap
+	;color:#fff;
+	font-size:20px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+.comp_container{
+	position:fixed;
+}
+
+.book_cont{
+	margin-top: 50px;
+}
+
+.row_modal>.column_modal{
+	padding:0 8px;
+}
+.row_modal:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.column_modal{
+	float:left;
+	width:25%;
+}
+.cursor{
+	cursor:pointer;
+}
+img.hover-shadow{
+	transition:.3s;
+}
+.hover-shadow:hover{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,.2) 0 6px 20px 0 rgba(0,0,0,.19);
+}
+#myLight{
+
+}
+
+/* The Modal (background) */
+.modal_lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content-lightbox {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
