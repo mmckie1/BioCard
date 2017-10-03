@@ -13,6 +13,10 @@
 <body style="background-color:#3fa9f5;">
     <h2 class="text-center" data-aos="fade-up" data-aos-duration="650" data-aos-offset="10px" data-aos-delay="400" style="color:rgb(255,255,255);margin-bottom:-44px;">Click around to find out about me.</h2>
 
+<audio id="myTune">
+  <source src="assets/audio/J_Balvin_Willy_William_Mi_Gente_featuring_Beyoncé.mp3">
+  <source src="assets/audio/J_Balvin_Willy_William_-_Mi_Gente_featuring_Beyonc.ogg">
+</audio>
 
 <!--Bookshelf Container-->
 <div class="container-fluid">
@@ -95,14 +99,14 @@
             </div>
         </div>
 
-        <div class="row" style="margin-left:200px;margin-top:-142px">
-            <div class="col">
-                <img src="assets/img/Asset 4.png" class="speaker_cont">
-            </div>
-        </div>
+         <img src="assets/img/Asset-4.gif" class="speaker_gif" style="margin-left:200px;margin-top:-120px;" >
+         <img src="assets/img/Asset 4.png" class="speaker_cont cursor" style="margin-left:200px;margin-top:170px;" onclick="playMyTune()">
+       
+       
+          
 
     <div class="container">
-        <div class="row" style="margin-left:-10px; margin-bottom: -100px; margin-top: 1px;">
+        <div class="row" style="margin-left:-10px; margin-bottom: -100px; margin-top: 150px;">
             <div class="col">
                 <img src="assets/img/Asset 2.png" class="comp_cont">
                 <div class="container">
@@ -119,11 +123,9 @@
         </div>
     </div>
 <!--Right Speaker-->
-	<div class="row" style="margin-bottom: -100px; margin-top: -35px;" >
-		<div class="col">
-			<img src="assets/img/Asset 4.png" class="speakerR_cont">
-		</div>
-	</div>
+
+	<img src="assets/img/Asset-4.gif" class="speakerR_cont" style="position:relative;margin-bottom: -100px; margin-top: -135px;">
+    <img src="assets/img/Asset 4.png" class="speakerR_cont" style="position:absolute;margin-bottom: 150px; margin-top: -128px;" onclick="stopMyTune()">
 
 
 <!--Camera-->

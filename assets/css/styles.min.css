@@ -14,6 +14,11 @@
 		display: none;
 	}
 
+	.speaker_gif {
+		max-width: 100px;
+		display: none;
+	}
+
 	.comp_cont {
 		max-width: 300px;
 	}
@@ -63,6 +68,13 @@
 	}
 
 	.speaker_cont {
+		max-width: 100px;
+		display: block;
+		margin-bottom: -400px;
+		margin-top: 120px;
+	}
+
+	.speaker_gif {
 		max-width: 100px;
 		display: block;
 		margin-bottom: -400px;
@@ -289,5 +301,25 @@ img.demo {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+
+.speaker_cont{
+	background: #3fa9f5;
+	position: absolute;
+}
+
+.speakerR_cont{
+	background: #3fa9f5;
+}
+
+.speaker_gif{
+	position: relative;
+}
+.speaker_cont:hover{
+	opacity: 0;
+}
+.speakerR_cont:hover{
+	opacity: 0;
 }
 
